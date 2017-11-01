@@ -1,0 +1,83 @@
+
+* {
+    font-family: "Microsoft YaHei" ;
+    }
+/* 导航开始 */
+
+.nav {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.nav .login  a.login-1a:hover{
+    
+    color: #158fe1;
+}
+
+.nav .login-1a {
+    font-size: 11px;
+    color: #777;
+    padding: 5px 15px;
+  
+}
+
+.nav .login-1a-1 {
+    font-size: 11px;
+    color: #777;
+    padding: 5px 15px;
+    border-right:1px solid #A79B9B;
+}
+
+
+.nav .login-2a {
+    background: #169af3;  
+    font-size: 18px;  
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #169af3;
+   margin:  5px 10px 5px 25px;
+    
+}
+
+/* 全局导航结束 */
+
+
+
+
+/* 开始 */
+
+.navwrap .ttf:hover {
+    background: #169af3;
+
+}
+.navwrap {
+
+    background: #2c323b;
+    text-align: center;
+   padding: 15px 30px;
+   
+    
+}
+.navwrap .ttf {
+    
+    font-size: 18px;
+    color: #fff; 
+    padding: 10px 30px;
+    
+}
+
+
+.navwrap  .ttf-1:hover {
+    color: #169af3;
+}
+
+.navwrap .ttf-1 {
+  
+    font-size: 15px;
+    color: #bbb;
+    padding:  0 20px;
+    
+}
+
+/* 结束 */

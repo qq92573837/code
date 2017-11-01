@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <span data-link='jquery'> jquery</span>
+    <span data-link='manage'>Vue</span>
+
+    <!-- jpuery  文件 -->
+    <div data-page='jquery'>
+
+        <div class="search-bar">
+            <form action=" " id="search-form">
+                <input type="text" id="search-input">
+                <button type="submit">搜索</button>
+            </form>
+            <div class="search-result"></div>
+        </div>
+    </div>
+    <!-- jpusery   结束 -->
+
+    <!-- Vue 开始 -->
+    <div data-page='manage'>
+
+        <div id="app">
+            <form action="" @submit.prevent='add_user'>
+                用户名:
+                <input type="text" v-model='new_user.name'>
+                </br>
+                年龄:
+                <input type="text" v-moder='new_user.age' name="" id="">
+                </br>
+                <button type="submit">提交</button>
+            </form>
+            <div>
+                <div v-for='(user, index)in user_list'>
+
+                    我叫啥名: {{user.name}} , 我活了多久了: {{user.age}}~,
+                    <button @click='del (index)'>删除</button>
+
+                    <button @click='updata (index)'>更新</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <!-- Vue  结束 -->
+
+
+
+
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+    <script src="vue.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script src="jquery.js"></script>
+    <script src="save.js"></script>
+    <script src="action.js"></script>
+    <script src="route.js"></script>
+</body>
+
+</html>

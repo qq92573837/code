@@ -1,0 +1,143 @@
+
+
+a:hover {
+    color:#333;
+}
+
+li {
+    list-style:none;
+    
+}
+
+
+
+.nav {
+background: #ffffff;
+
+}
+
+.nav .content-1{
+    font-size: 18px;
+    padding:  30px 30px;
+    
+}
+
+
+.nav .content-1 .nav-item {
+    padding: 10px 20px;
+    color: darkgray
+    
+}
+    
+.slider .content-1 {
+
+    font-size: 16px;
+   text-align: center;
+}
+
+
+.lider {
+    background: #2ccce8;
+}
+
+
+.slider  .a-1 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.slider .img-1 {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.a-1 {
+    position: absolute;
+    top: 90px;
+    left: 240px;
+    z-index: 1;
+}
+
+.a-2 {
+
+    color:#fff;
+    font-size: 10px;
+    position: absolute;
+    top: 42px;
+    left: 558px;
+    z-index: 1;
+    text-shadow: 0 0 4px rgba(0,0,0,.8);
+}
+
+button {
+    font-size: 15px;
+    border-radius: 9px;
+    padding: 10px 20px;
+    background: #31b3f2;
+    text-shadow: 0 0 4px rgba(0,0,0,0.8);
+    outline:0;
+    
+   
+}
+ 
+
+.a {\\\\\\\\    margin: 30px 0px;
+}
+.genre {
+    background: #eaebed;
+    font-size: 18px;
+    padding: 30px;
+    
+    
+}
+
+.genre .ziti-1 { 
+    color: #93a1af;
+    padding: 20px 40px
+   
+}
+
+.wrapper {
+    padding: 20px;
+
+    
+}
+
+
+.juzhong-1 {
+    text-align: center;
+}
+
+.wrapper .matter {
+    padding: 10px;
+   
+}
+.wrapper .matter .void-1 {
+    padding: 10px;
+}
+.wrapper .matter .void-2 {
+    padding: 10px;
+}
+.wrapper .matter .void-3{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

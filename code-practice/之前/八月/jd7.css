@@ -1,0 +1,53 @@
+.left{
+    text-align: left;
+    width: 20%;
+}
+.right{
+    text-align: right;
+    width: 80%;
+}
+
+.nav{
+    background: #eee;
+}
+.logo{
+    text-align: left;
+}
+.header{
+    text-align: left;
+}
+.region{
+    background: #6e6568;
+}
+.hong{
+     background: darkred;
+}
+.rard{
+   
+    height: 20px;
+  
+    text-align-last:justify;
+    
+}
+.zuo{
+    vertical-align: top;
+   
+}
+.green{
+    text-align: center;
+    padding:10px;
+}
+
+.one{
+    font-size: 40px;
+    background: #AD4848;
+
+}
+.four{
+    background: darkkhaki;
+   
+
+}
+.card{
+    background: 
+}

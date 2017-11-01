@@ -1,0 +1,138 @@
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box; /* 从border开始算宽度 */
+    position: relative; /* 相对定位 */
+}
+
+body {
+    margin: 0;
+}
+
+img, video {
+    display: block;
+    width: 100%;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.wrapper {
+    max-width: 1343px;
+    margin: 0 auto;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+.row {
+    font-size: 0;
+    vertical-align: top;
+}
+
+.col {
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.col-1 {
+    width: 8.3333333%;
+}
+
+.col-2 {
+    width: 16.6666666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333333%;
+}
+
+.col-5 {
+    width: 41.6666666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333333%;
+}
+
+.col-8 {
+    width: 66.6666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333333%;
+}
+
+.col-11 {
+    width: 91.6666666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+adj-1{
+    width: 10%;
+}
+
+adj-2{
+    width: 20%;
+}
+
+adj-3{
+    width: 30%;
+}
+
+adj-4{
+    width: 40%;
+}
+
+adj-5{
+    width: 50%;
+}
+
+
+adj-6{
+    width: 60%;
+}
+
+adj-7{
+    width: 70%;
+}
+
+adj-8{
+    width: 80%;
+}
+
+adj-9{
+    width: 90%;
+}
+
+adj-10{
+    width: 100%;
+}

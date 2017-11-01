@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="002.css">
+</head>
+
+<body>
+    <div class="nav">
+        <span data-link='admin' class="nav-item">后台</span>
+        <span data-link='home' class="nav-item">首页</span>
+    </div>
+    <div data-page='admin' class="page admin">
+        <div>
+            <form id="article-form">
+                <input type="text" hidden name='id'>
+                <br>
+                <input type="text" name="name" id="name" placeholder="请输入商品名称">
+                <br>
+                <input type="text" id='rate' name='rate' value="$" placeholder="请输入商品价格">
+                <br>
+                <textarea name="describe" id="describe" cols="30" rows="10" placeholder="请输入商品描述"></textarea>
+                <br>
+
+                <button type="submit">提交</button>
+                <br>
+            </form>
+        </div>
+        <div>
+            <table border="1">
+                <thead>
+                    <th>
+                        商品名称
+                    </th>
+                    <th>
+                        商品价格
+                    </th>
+                    <th>商品描述</th>
+                    <th>商品ID</th>
+
+                    <th>活动管理</th>
+                    <th>商品管理</th>
+                </thead>
+                <tbody id="article-list">
+
+                </tbody>
+            </table>
+
+
+        </div>
+
+    </div>
+    <div data-page='home' class="page home">556666</div>
+
+    <script src="002.js"></script>
+    <script src="003.js"></script>
+    <script src="004.js"></script>
+    <script src="005.js"></script>
+</body>
+
+</html>

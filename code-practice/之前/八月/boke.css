@@ -1,0 +1,31 @@
+
+body {
+    background: repeat url(http://p0.so.qhmsg.com/sdr/1365_768_/t014db51a63ff5789df.jpg)
+}
+
+
+.nav {
+   text-align: center;
+    padding: 25px;
+}
+
+.hezhi {
+    padding: 20px 10px; 
+    
+}
+
+
+.ziti {
+    font-size: 20px;
+    color: #ffffff ;
+    padding: 10px 20px;
+  
+}
+
+button {
+    
+    background: #ffffff;
+    padding: 10px 40px;
+    margin: 0 12px;
+
+}

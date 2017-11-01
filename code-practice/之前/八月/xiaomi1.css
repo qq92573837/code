@@ -1,0 +1,225 @@
+.nav {}
+
+
+a.font-1:visited,a.font-1:link {text-decoration:none;}  
+a.font-1:hover,a.font-1:active {background:#DFF2FA;
+  text-decoration:underline;
+}  
+    
+ 
+
+
+
+
+
+.nav .font {
+    padding: 20px 18px;
+    text-align: right
+
+    
+    
+}
+
+
+li {
+    list-style:none；
+}
+
+a:hover{
+    color: #ffffff;
+    color: #E4D6D6; text-decoration:underline;
+
+}
+a:link {
+    color: darkcyan;
+}
+
+
+.nav .font .font--1 {
+    font-size: 12px;
+    color: #87759a;
+     padding: 15px 10px;
+   
+}
+
+.nav .font .font-1 {
+    font-size: 12px;
+    color: #87759a;
+     padding: 15px 5px;
+
+}
+
+.yemian {
+    padding: 28px;
+   
+}
+
+
+.tupian {
+    background-image:url(xiaomi.jpg)
+}
+
+.yemian .yidong {
+    background: rgba(238, 231, 231, 0.1);
+    position: relative; /* 相对定位 */
+    /* 子级会随着父级位置的改变而相应改变 */
+    
+    top: -463px;
+    left: 8px;
+  
+}
+
+.ziti-1 {
+    font-size: 18px;
+}
+
+.ad {
+    padding: 10px;
+}
+.img-1 {
+    padding: 5px;
+}
+
+.ad li {
+    list-style:none；
+}
+
+.ad .xiaokuang-1 {
+    padding: 15px;
+}
+
+
+.subjoin {
+    margin:  25px;
+    padding:  10px 0px;
+}
+
+
+
+.d-3 {
+    width: 20%;
+    padding: 20px;
+    border-top:1px solid #86E00F;
+    border-right:1px solid #F3E8E8;
+    border-left: 1px solid #F3E8E8;
+    
+  
+}
+.pd {
+    padding: 15px ;
+
+    
+    
+}
+
+.d-1 {
+    width: 20%;
+    border-right:2px solid #F3E8E8;
+    border-top:2px solid #E721BC;
+    
+}
+
+.d-2 {
+    width:  20%;
+    border-top:2px solid #F82D37;
+    
+    border-left:2px solid #F3E8E8
+    
+}
+
+.d-4 {
+      width: 20%;
+    border-top:2px solid #0CE5EC;
+    border-right:2px solid #F3E8E8;
+    border-left: 2px solid #F3E8E8;
+  
+
+}
+
+.d-5{
+    width: 20%;
+    border-top:2px solid #4345DF;
+    border-right:2px solid #F3E8E8;
+    border-left: 2px solid #F3E8E8;
+  
+}
+
+.yidong-1 {
+    background: #e53935;
+    font-size: 5px;
+    width: 60px;
+    height: 20px;
+    text-align:center;
+    border-radius:25px;
+    position: absolute;
+    top: 42px;
+    left: 79px;
+}
+.juzhong {
+    text-align: center;
+}
+
+.ttf-1 {
+    font-size: 18px;
+   color: darkgray;
+}
+.ttf-2 {
+    font-size: 15px;
+}
+
+.ttf-3 {
+    font-size: 15px;
+    color: #e53935;
+}
+
+
+.width {
+    padding: 40px;
+}
+
+.width .gaodu-1 img {
+    width:  310px;
+    height: 680px;
+    padding: 10px;
+}
+
+.width .case-2  a.jiaju:visited,a.jiaju:link {text-decoration:none;}     
+
+.width .case-2 {
+    font-size: 20px
+}
+.pd {
+    padding: 30px 20px;
+}
+
+.width .case{
+    direction: inline-block;
+    vertical-align: top;
+
+}
+
+
+.case-2 {
+    text-align: right;
+}
+.jiaju-1 {
+    padding: 20px;
+    font-size:20px;
+    padding: 15px;
+    color: #3DB9EB
+    
+ 
+}
+
+.jiaju {
+    padding: 20px;
+    font-size: 20px;
+    padding: 15px;
+    color: #3DB9EB
+
+}
+
+.case {
+    padding: 30px;
+}
+

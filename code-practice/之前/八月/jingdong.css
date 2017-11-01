@@ -1,0 +1,339 @@
+* {
+    background:transparent;;
+    vertical-align: top;
+}
+.bl　{
+    height: 20px;
+    
+    border: 1px solid white;
+    background:#e01222;
+
+    
+}
+
+input {
+    height: 30px;
+}
+
+.hot{
+    margin-right: 10px;
+}
+ button{
+  
+    padding: 8px;
+    
+    border: 1px solid #f10215;
+}
+
+.right{
+  text-align: right;
+   
+}
+
+
+.right-1 {
+    text-align: center;
+    
+   
+   
+    
+}
+
+.row {
+    background: slategray;
+  
+}
+
+.logo {
+    height: 20px;
+    text-align: center
+}
+
+.search {
+     text-align :center;
+    height: 20px;
+    height: 150px;
+    background: #A9A9A9
+   
+}
+.search-1{
+    height: 20px;
+    text-align:center;
+  
+  
+}
+.search-2{
+    height: 20px;
+    text-align:left ;
+    
+}
+
+.one-1 {
+    height: 350px;
+    background: darkgray;
+  
+    border: 1px solid white;
+  
+}
+.one-2{
+    height: 350px;
+    border: 1px solid white;
+    
+}
+
+.one-3{
+    height: 350px;
+    
+}
+
+.one-4 {
+   
+    height: 200px;
+   
+   
+  
+}
+.one-5 {
+   
+   height: 150px;
+
+   border: 1px solid white;
+  
+    
+}
+.one-6{
+    width: 50%;
+    height: 150px;
+    
+    border: 1px solid white;
+}
+.one-7{
+    width: 50%;
+    height: 150px;
+    background: darkred;
+    border: 1px solid white;
+}
+
+.one-8 {
+    width: 50%;
+    height: 50px;
+    border: 1px solid white;
+
+}
+
+.content-1 {
+    
+     height: 60px;
+    
+    border: 1px solid white;
+    background:#e01222;
+}
+
+.card{
+    height: 200px;
+    background: #0AE0E0;
+    border: 1px solid white;
+
+}
+
+.to-1 {
+   height: 50px;
+
+}
+
+.to-2 {
+
+    height: 100px;
+    background: darkcyan;
+  
+}
+
+.to-4 {
+    height: 100px;
+    border: 1px solid white;
+}
+
+.six-1 {
+   border: 1px solid white;
+    height: 60px;
+    background: #31EE1F
+    
+}
+.six-3{
+height: 120px;
+border: 2px solid white;
+
+}
+
+
+.six-2 {
+    height: 120px;
+    border: 1px solid white;
+}
+
+.six-4 {
+    height: 200px;
+    border: 1px solid white;
+}
+
+.subclass-1 {
+    height: 200px;
+}
+
+.subclass {
+    height: 200px;
+    background: #6955E7;
+    border: 1px solid white;
+    
+    
+}
+.subclass-1{
+    
+    height: 40px;
+    background: #EB10D8;
+    border: 1px solid white;
+}
+
+.tiny{
+    height: 100px;
+}
+.tiny-1{
+    height: 100px;
+    background: darkblue;
+    border: 1px solid white;
+}
+
+.ad-1 {
+    height: 60px;
+    background: darkgoldenrod;
+    border: 1px solid white;
+
+}
+.ad-2{
+    height: 60px;
+    background: darkolivegreen;
+    border: 1px solid  white;
+}
+
+.ad-3{ 
+    border:  solid 1px  white;
+    height: 60px;
+    background: rgba(11, 184, 11, 0.66)
+   
+}
+.content-2{
+    height: 300px;
+
+}
+
+.ad-5 {
+    height: 100px;
+
+}
+.class-1{
+    height: 300px;
+    
+    border:1px solid white;
+}
+.class-2{
+    height: 300px;
+    
+    border: solid white;
+}
+.class-3{
+    height: 300px;
+    
+    border:  solid white;
+}
+
+.lump {
+    border:  solid white;
+    height: 358px;
+   
+    Border:1px solid #79D80C 
+
+}
+
+.mark {
+    height: 40px;
+    border: solid  1px #D111A1;
+    background: darkcyan
+   
+}
+.footer-1 {
+    height: 84px;
+    background: fuchsia;
+    border:  solid  1px goldenrod;
+}
+.footer-2 {
+    height: 60px;
+    background: darkcyan;
+    border: solid 1px darkgreen;
+}
+.footer-3 {
+    height: 80px;
+    background: darkkhaki;
+    border: solid 1px darkcyan;
+}
+
+
+.mark-6 {
+    height: 100px;
+    border: solid 1px darkcyan;
+}
+.mark-7 {
+    height:200px;
+    border: solid 1px darkviolet;
+}
+.mark-9 {  
+    height: 40px;
+    background: salmon
+   
+}
+
+.adj {
+    width: 16.666666%;
+    height: 30px;
+    border: solid 1px  salmon;
+}
+
+.head-5 {
+    background: darkgoldenrod;
+    height: 30px
+    
+}
+.part-1 {  
+    height: 80px;
+    width: 12.5%;
+    border-style: solid;
+    border-width: 4px;  
+    border-color: transparent;
+}
+
+
+.footer-2 {
+    width: 1080px;
+    height: 4003px;
+
+}
+.part-2 {
+    height: 200px;
+    border: solid 1px  salmon;
+}
+
+
+.part-3 {
+
+   width: 20%;
+   height: 200px;
+   border: solid 1px  #5ADF1C;
+}
+
+
+
+
+
+
+
+
+

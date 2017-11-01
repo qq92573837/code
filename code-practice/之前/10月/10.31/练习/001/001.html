@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <form @submit.prevent="add_user">
+            用户名：
+            <input type="text" v-model="new_user.name">
+            <br> 年龄：
+            <input type="text" v-model="new_user.age">
+            <br>
+            <button type="submit">提交</button>
+        </form>
+        <div>
+            <div v-for="(user, i ) in user_list">
+                我是{{user.name}}， 我今年{{user.age}}岁了,
+                <button @click='remove(i)'>删除</button>
+                <button @click='update(i)'>更新</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+    <script src="002.js"></script>
+
+</body>
+
+</html>

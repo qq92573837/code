@@ -1,0 +1,168 @@
+
+* {
+    background:transparent;;
+    vertical-align: top;
+}
+
+
+.nbj{
+    padding: 5px 10px;
+
+}
+
+
+.ziti {
+    font-family: Georgia, serif;
+    font-size: 120%
+}
+
+
+.one--1 {
+    width: 1347px;
+    height: 30px;
+    background: #A5CAE2
+}
+
+.one-1 {
+    width: 6%;
+    text-align: right;
+    height: 30px;
+}
+.one2 {
+    text-align: left;
+    height: 30px;
+}
+.one-3 {
+    text-align: right;
+    height: 30px;
+
+}
+
+.one-4{
+    text-align: left;
+    height: 30px;
+
+}
+
+.lagou-1 {
+    text-align: right;
+}
+
+.subnav {
+
+    height: 56px;
+    
+}
+
+.subnav-2 {
+    height: 56px;
+}
+
+.tow-1 {
+    width: 20%;
+    height: 56px;
+    text-align: center;
+}
+
+.seek {
+    width: 1347px;
+    height: 132px;
+}
+
+input { 
+    
+    float: left;
+    width: 600px;
+    height: 46px;
+ 
+
+}
+
+
+button {
+    
+    width: 142px;
+    height: 46px;
+    font-size: 18px;
+    color: #FFF;
+    border: 0;
+    background: #00b38a;
+    cursor: pointer;
+}
+
+.coetent {
+    height: 385px;
+   
+}
+
+
+.four-1 {
+    height: 55px;
+    padding-top:15px;
+    padding-bottom:15px;
+
+   
+}
+.links {
+    min-height: 40px;
+    padding-bottom:10px;
+    padding-top: 10px
+   
+}
+.classi-2 {
+    height: 430px
+}
+
+.five-1 {
+    
+    
+  
+     min-height: 300px;
+  border: 2px solid #FFFFFF
+    
+}
+
+
+.footer {
+    min-height: 900px;
+    border: 2px solid #FFFFFF;
+    min-height: 300px;
+    padding: 15px;
+    background:#EFEFF5;
+  
+    ;
+}
+.five-2  {
+    min-height: 200px;;
+    border: 2px solid #FFFFFF;
+ 
+}
+
+.five-3{
+    border: 2px solid #FFFFFF;
+    min-height: 100px;
+
+}
+.five-4 {
+    min-height: 50px;
+    border: 2px solid #FFFFFF;
+}
+
+.five-5 {
+    min-height:30px;
+    border: 2px solid #FFFFFF;
+}
+
+.five-6 {
+    min-height: 120px;
+    border: 2px solid #FFFFFF;
+}
+
+.yidong {
+    text-align: right;
+  
+}
+.five-7 {
+    min-height: 25px;
+    border: 2px solid #FFFFFF;
+}

@@ -1,0 +1,17 @@
+
+.header {
+    background: #666666;
+    
+}
+
+.lg-title, .sm-title {
+    color: #ffffff;
+}
+
+.title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+ 
+
+}

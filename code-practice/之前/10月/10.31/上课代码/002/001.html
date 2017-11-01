@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="app">
+        <div>
+            <button @click='add_user'>点我</button>
+        </div>
+        <div v-for='user in  user_list'>
+            <h1>{{user.name}}</h1>
+            <b>{{user.age}}</b>
+            <h3>{{user.xingbie}}</h3>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+    <script src="003.js"></script>
+</body>
+
+</html>

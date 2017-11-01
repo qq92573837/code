@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nav">
+        <span data-link='admin' class='naw-item'>首页</span>
+        <span data-link='home' class='naw-item'>后台</span>
+    </div>
+
+    <div data-page='admin' class="page admin">
+
+        <span id="goods-import">
+            <input type="text" id="name" name="name">
+            <br>
+            <input type="text" id="rate" name='rate'>
+            <br>
+
+            <textarea name="describe" id="describe" cols="30" rows="10"></textarea>
+
+
+
+
+        </span>
+
+        <div id="goods-show"></div>
+
+    </div>
+    <div data-page='home' class="page home">后台</div>
+
+
+    <script src="002.js"></script>
+    <script src="003.js"></script>
+    <script src="004.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="005.js"></script>
+</body>
+
+</html>

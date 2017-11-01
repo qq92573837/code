@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="001.css">
+    <link rel="stylesheet" href="col-12.css">
+</head>
+
+<body>
+
+    <div class="nav ">
+        <div class="row">
+            <div class="col col-3 "></div>
+            <div class="col col-6 navbar">
+                <span data-link="home" class="nav-item">首页</span>
+                <span data-link="admin" class="nav-item">商品管理</span>
+                <span data-link="enter" class="nav-item">登录</span>
+                <span data-link="login" class="nav-item">注册</span>
+
+            </div>
+            <div class="row">
+                <div class="col col-3"></div>
+
+            </div>
+        </div>
+
+        <div data-page="home" class="page home">
+            Home
+        </div>
+        <div data-page="admin" class="page admin">
+
+
+            <form id="article-form">
+                <input type="text" id='title' name="name ">
+                <br>
+                <input type="text" id='author' name="price">
+                <br>
+                <textarea id="content" name="referral"></textarea>
+                <br>
+                <button type="submit">提交</button>
+            </form>
+           
+            <div id="article-list"></div>
+        
+        </div>
+        <div data-page="enter" class="page home">
+            enter
+        </div>
+        <div data-page="login" class="page home">
+            login
+        </div>
+        <script src="002.js"></script>
+        <script src="003.js"></script>
+        <script src="004.js"></script>
+        <script src="005.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="navbar"></div>
+        <form id="task-form" @submit.prevent='merge'>
+            <input v-model='current.title' type="text" id="task-input">
+            <button type="submit">提交</button>
+        </form>
+        <div class="task-list">
+            <div v-for='(todo,index) in list ' class="item">
+                {{todo.title}}
+                <button @click=' remove(index)'>删除</button>
+                <button @click='set_current(todo)'>更新</button>
+
+            </div>
+        </div>
+        <div class="task-list">
+            <div class="coplete iten"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+    <script src="store.js"></script>
+    <script src="action.js"></script>
+
+</body>
+
+</html>

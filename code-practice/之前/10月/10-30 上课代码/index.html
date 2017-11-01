@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      background: #eee;
+    }
+
+    .row {
+      font-size: 0;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .col {
+      display: inline-block;
+      font-size: 15px;
+      vertical-align: top;
+    }
+
+    .sm {
+      width: 10%;
+    }
+
+    .lg {
+      width: 90%;
+    }
+
+    #loading, #empty {
+      display: none;
+    }
+
+    .result-item {
+      background: #fff;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+<div class="search-bar">
+  <form id="search-form">
+    <input id="search-input" type="search" name="keyword" autofocus>
+    <button type="submit">搜索</button>
+  </form>
+  <div id="loading">加载中...</div>
+  <div id="empty">暂无结果</div>
+</div>
+<div class="search-result"></div>
+<script src="jquery.js"></script>
+<script src="base.js"></script>
+</body>
+</html>

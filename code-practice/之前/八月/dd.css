@@ -1,0 +1,130 @@
+* {
+    background:transparent;;
+    vertical-align: top;
+}
+
+.item {
+        /* display: inline-block; */
+        color: #666;
+        padding: 20px 30px;
+    }
+
+
+.title-1 {
+    text-align: right;
+    line-height: 30px;
+}
+
+.header　{
+    color: darkcyan;
+  line-height: 30px;
+}
+ 
+.video {
+ 
+}
+.daxiao {  
+    font-size:15px;
+  padding:20px 15px;
+ 
+  
+}
+
+.daxiao-1 {
+    font-size: 20px;
+padding: 10px 25px;
+
+}
+
+
+.ziti-1 {
+    font-size: 10px;
+    padding: 10px 10px 10px 10px ;
+  
+
+}
+
+.ziti-3{
+   font-size: 20px;
+   color:#00F
+}
+
+
+.zuo-1 {
+    text-align: right;
+   
+}
+
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    
+
+}
+
+.box-1 {
+    padding:30px 20px;
+}
+
+.ziti-2 {
+    font-size: 16px;
+
+}
+
+.juzhong {
+  text-align: center;
+
+}
+
+.kuang {
+    border: 5px solid #F8102B;
+    padding: 3px 5px;
+}
+
+.shangxia {
+  
+}
+
+.you {
+    text-align: right;
+ 
+    
+}
+
+
+
+.beijing {
+   padding:20px; 
+ 
+    background: #F10303
+   
+     
+}
+
+.dabianju {
+    padding: 10px;
+}
+
+.xiaobianju {
+    padding: 20px;
+}
+
+.hong  {
+    font-size: 90%;
+    
+    font-weight:bold;
+    color: #F73A00
+}
+
+.yanse-1 {
+     color:#fff;
+    
+}
+
+.yanse-2 {
+
+    margin-top: 19px;
+}

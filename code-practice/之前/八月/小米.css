@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box; /* 从border开始算宽度 */
+    position: relative; /* 相对定位 */
+}
+
+
+a {
+}
+
+body {
+    margin: 0;
+}
+
+img, video {
+    display: block;
+    max-width: 100%;
+}
+
+.wrapper .nav {
+
+
+}
+
+.wrapper {
+    padding: 5px  5px;
+
+}
+
+
+
+
+
+.tinct-1 {
+display: inline-block;
+padding: 6px 10px;
+}
+
+
+.you {
+    text-align: right;
+}
+
+
+
