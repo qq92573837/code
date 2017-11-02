@@ -10,6 +10,28 @@
 
 <body>
 
+
+    <div id="app">
+
+
+        <form action="" @submit.prevent='add'>
+            <input type="text" v-model='new_goods_list.name'>
+            <input type="text" v-model='new_goods_list.price'>
+            <button type="submit">提交</button>
+        </form>
+        <div v-for="doods in list">
+            {{doods.name}} {{doods.price}}
+            <button @click=''>更新</button>
+            <button @click='del'>删除</button>
+
+        </div>
+
+
+    </div>
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+    <script src="basics.js"></script>
+    <script src="store.js"></script>
+
 </body>
 
 </html>
