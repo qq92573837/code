@@ -18,14 +18,8 @@
 
         mounted: function () {
             this.list = s.get('list') || this.list;
-
         },
-
-
         methods: {
-
-
-
 
             merge: function () {
                 var is_update, id,
@@ -50,9 +44,11 @@
             },
 
             remove: function (id) {
-                
+
                 this.list.splice(id, 1)
+
                 s.set('list', this.list)
+
             },
 
 
@@ -83,11 +79,8 @@
                     } else {
                         s.set('list', []);
                     }
-
                 }
             }
-
-
         }
     })
 
