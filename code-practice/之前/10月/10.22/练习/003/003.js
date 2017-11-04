@@ -8,7 +8,7 @@
         update: update,
         read: read,
     }
-   
+
 
     var article_list, last_id;
 
@@ -49,8 +49,10 @@
         s.set('last_id', last_id);
     }
 
+
     function remove(id) {
         var shit_index = find_index(id);
+        console.log(shit_index)
         if (shit_index === -1) return;
 
         article_list.splice(shit_index, 1);

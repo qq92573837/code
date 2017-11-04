@@ -1,0 +1,13 @@
+.nav{
+background: darkgrey;
+padding: 20px;
+
+}
+
+nav.ziti1{
+   font-size: 18px;
+}
+.nav .ziti:hover { /* 当鼠标指在链接上时 */
+    background: rgba(219, 24, 24, 0.2); /* 背景色变深 */
+    color: rgba(255,255,255, 1); /* 文字颜色变亮 */
+  }

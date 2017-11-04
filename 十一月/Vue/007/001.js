@@ -5,20 +5,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    var div = document.getElementById('a')
 
 
 

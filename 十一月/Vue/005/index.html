@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <form action="" @submit.prevent='add_update()'>
+            <input type="text" v-model='goods_list.name'>
+            <input type="text " v-model='goods_list.age'>
+            <button type="submit">提交</button>
+        </form>
+
+        <div v-for='goods in list'>
+            <h1>{{goods.name}}</h1>
+            <h3>{{goods.name}}</h3>
+            <button @click='remove'>删除</button>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+    <script src="Vue.js"></script>
+</body>
+
+</html>

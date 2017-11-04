@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <page-product></page-product>
+        <page-cat></page-cat>
+    </div>
+
+    <template id="tpl-page-product">
+        <div>
+            <h1>商品管理</h1>
+            <form @submit.prevent='trigger("product_add_or_update",form_product)'>
+                标题:
+                <input type="text" v-model='form_product.title'>
+                <br> 价格:
+                <input type="text" v-model='form_product.price'>
+                <br>
+                <button type="submit">提交</button>
+            </form>
+        </div>
+    </template>
+
+    <template id="tpl-page-cat">
+        <h1>分类管理</h1>
+    </template>
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+    <script src="001.js"></script>
+    <script src="002.js"></script>
+</body>
+
+</html>

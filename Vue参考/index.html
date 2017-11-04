@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="nav">
+        <span data-link="shouye">首页</span>
+        <span data-link="product">商品管理</span>
+        <span data-link="cat">分类管理</span>
+    </div>
+    <hr>
+    <div id="app" data-page="product">
+        <div id="form-input">
+            <form @submit.prevent="addProduct">
+                <input type="hidden" v-model="currentProduct.id"> 商品标题：
+                <input type="text" v-model="currentProduct.title" required>
+                <br> 商品价格：
+                <input type="number" v-model="currentProduct.price" required>
+                <br>
+                <cat-select :message="currentProduct"></cat-select>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+        <div id="product-container" data-page="cat">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>商品名称</th>
+                        <th>商品价格</th>
+                        <th>分类ID</th>
+                        <th>商品操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="product in productList">
+                        <td>{{product.title}}</td>
+                        <td>{{product.price}}</td>
+                        <td>{{product.catId}}</td>
+                        <td>
+                            <button @click="update(product)">更新</button>
+                            <button @click="remove(product.id)">删除</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <div id="cat-app">
+        <cat-input-forma></cat-input-forma>
+    </div>
+
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+    <script src="002.js"></script>
+    <script src="001.js"></script>
+    <script src="003.js"></script>
+
+</body>
+
+</html>
