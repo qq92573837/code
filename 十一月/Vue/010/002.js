@@ -12,9 +12,15 @@
             Event.$on('product_add_or_update.success', function () {
                 me.form_product = {};//  触发 然后执行
             })
+            Event.$on('update_data', function (data) {
+                me.form_product = data;
+            })
         },
+
+        props: ['list'],
         methods: {
             trigger: function (name, data) {
+
                 Event.$emit(name, data)
             },//触发 然后执行
         },
@@ -24,7 +30,7 @@
             }
         }
     });//创建商品管理
-    
+
     Vue.component('page-cat', {
         template: '#tpl-page-cat',
     });//创建分类
@@ -40,6 +46,14 @@
                 me.product_add_or_update(data)
             });//监听  data是输入框的内容
 
+            Event.$on('del', function (data) {
+
+                me.del(data)
+            });
+            Event.$on('update', function (data) {
+
+                me.update(data)
+            })
 
         },//最先执行 相当于初始化
         data: {
@@ -48,14 +62,46 @@
         },
         methods: {
             product_add_or_update: function (product) {
-                if (!product || !product.title || product.price)
+                if (!product || !product.title || !product.price)
+                    throw '没填'
 
+                if (product.id) {
+                    var index = this.find_index(product);
+                    if (index !== -1)
+                        this.product_list[index] = Object.assign({}, this.product_list[index], product)
+
+                } else {
                     product.id = this.product_inc()
-                this.product_list.push(product)
+                    this.product_list.push(product)
+                }
+
+
                 this.sync();
                 Event.$emit('product_add_or_update.success')//清空 传到上面清空
-
             },
+
+            find_index: function (data) {
+
+                return this.product_list.findIndex(function (product) {
+                    return product.id === data.id;
+
+                })
+            },
+
+            del: function (data) {
+                var index = this.find_index(data)
+
+                if (index === -1)
+                    throw '没找到id'
+                this.product_list.splice(index, 1)
+                this.sync()
+            },
+
+
+            update: function (data) {
+                Event.$emit('update_data', data)
+            },
+
             sync: function () {
                 s.set('product_list', this.product_list)
             },
