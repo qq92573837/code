@@ -47,7 +47,9 @@
             });//监听  data是输入框的内容
 
             Event.$on('del', function (data) {
-
+                var confirmed = confirm('确定删除吗?');
+                if (!confirmed)
+                    return  //
                 me.del(data)
             });
             Event.$on('update', function (data) {
@@ -59,6 +61,7 @@
         data: {
             product_list: [],
             last_product_id: 0,
+            
         },
         methods: {
             product_add_or_update: function (product) {
