@@ -31,20 +31,6 @@
                 },
             }
         },
-
-        computed: {
-            valid_title: function () {
-                var title = this.form_product.title;
-                if (title) {
-                    return false
-                    var length = title.length;
-                    return length >= 4 && length < 10;
-                }
-            }
-        }
-
-
-
     });//创建商品管理
 
 
