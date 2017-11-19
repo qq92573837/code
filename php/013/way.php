@@ -9,10 +9,15 @@ class Goods
 
     public $goods_list;
 
+    public $goods_id;
+
     public function __construct()
     {
 
+       
         $this->goods_list=$this->read();
+        $this->goods_list=$this->read($this->goods_id)?:0;
+        $this->goods_id=$this->inc();
 
         $this->parms=array_merge($_GET, $_POST);
         $this->add();
@@ -38,10 +43,12 @@ class Goods
             return ['success'=>false,'msg'=>'没有标题或者没有价格'];
         }
         $this->goods_list[]=[
+        'id'=>$this->inc(),
         'name'=>$name,
         'price'=>$price,
         'img'=>$url,
         ];
+
         $this->sync();
         echo '添加成功';
         header("Refresh:1;url=/manage.php");
@@ -49,8 +56,17 @@ class Goods
 
     public function read()
     {
+        $this->goods_id=file_get_contents('id.json', json_encode($this->goods_id));
         $json= file_get_contents('json.json', json_encode($this->goods_list));
         return json_decode($json, true);
+    }
+
+
+    public function inc()
+    {
+        $this->goods_id++;
+        file_put_contents('id.json', json_encode($this->goods_id));
+        return $this->goods_id;
     }
     public function sync()
     {
