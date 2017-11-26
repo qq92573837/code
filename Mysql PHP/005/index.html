@@ -1,0 +1,32 @@
+<?php
+require_once './cat.php';
+$cat = $cat->new_read();
+?>
+<form action="cat.php" method="post">
+<input type="hidden" name="action" id="" value='add'>
+<input type="hidden" name="m" id="" value='add'>
+分类标题:<input type="text" name='shouji'><br>
+
+    <button type='submit'>提交</button>
+
+
+    <div>
+
+<table border='1'>
+<?php foreach ($cat as $row): ?>
+<tr>
+<th>分类标题</th>
+<th>分类id</th>
+<th>操作</th>
+</tr>
+<td><?php echo $row['title'] ?></td>
+<td><?php echo $row['id'] ?></td>
+<td><a href="/cat.php?action=del&id=<?php echo @$row['id'] ?>">删除</a></td>
+
+<?php endforeach;?>
+</table>
+
+
+    </div>
+
+</form>
